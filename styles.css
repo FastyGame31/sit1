@@ -10,6 +10,7 @@ body {
     background: linear-gradient(135deg, #1e1e2e, #252540);
     color: #ffffff;
     overflow-y: scroll;
+    text-align: center;
 }
 
 /* Header */
@@ -26,6 +27,19 @@ body {
     font-size: 3rem;
     font-weight: 600;
     text-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Text Section */
+.text-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 100px auto;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #ffffff;
+    text-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1s ease-in-out;
 }
 
 /* Buttons & Image Container */
